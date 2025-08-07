@@ -1,0 +1,18 @@
+AT
+AT+CWMODE?
+AT+CWJAP?
+AT+CWLAP
+AT+CWQAP
+AT+CIPSTART="TCP","api.thingspeak.com",80
+AT+CIPSEND=55
+GET /update?api_key=A1G2HBTIW6W7WMSF&field1=8
+
+
+esp8266.find(readReply);
+
+
+
+
+GET /channels/460937/feeds.json?api_key=L919NTQKZOPGHYF2&results=2
+
+GET https://api.thingspeak.com/channels/460937/feeds.json?api_key=L919NTQKZOPGHYF2&results=2
